@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <h1>Student Registration Form</h1>
+
+    <form>
+
+        <div class="row">
+            <label>Roll No :</label>
+            <input type="text">
+        </div>
+
+        <div class="row">
+            <label>Student Name:</label>
+            <input type="text" placeholder="First Name">
+            <input type="text" placeholder="Last Name">
+        </div>
+
+        <div class="row">
+            <label>Father's Name :</label>
+            <input type="text">
+        </div>
+
+        <div class="row">
+            <label>Date of Birth :</label>
+
+            <select>
+                <option>Day</option>
+            </select>
+
+            <select>
+                <option>Month</option>
+            </select>
+
+            <select>
+                <option>Year</option>
+            </select>
+
+            <span>(DD/MM/YYYY)</span>
+
+        </div>
+
+        <div class="row">
+            <label>Mobile No. :</label>
+
+            <select class="code">
+                <option>+91</option>
+            </select>
+
+            <input type="text">
+        </div>
+
+        <div class="row">
+            <label>Email ID :</label>
+            <input type="email">
+        </div>
+
+        <div class="row">
+            <label>Password :</label>
+            <input type="password">
+        </div>
+
+        <div class="row">
+            <label>Gender :</label>
+
+            <input type="radio" name="gender"> Male
+
+            <input type="radio" name="gender"> Female
+        </div>
+
+        <div class="row">
+            <label>Department :</label>
+
+            <input type="checkbox"> CSE
+            <input type="checkbox"> IT
+            <input type="checkbox"> ECE
+            <input type="checkbox"> Civil
+            <input type="checkbox"> Mech
+        </div>
+
+        <div class="row">
+            <label>Course :</label>
+
+            <select class="course">
+                <option>Select Current Course</option>
+                <option>B.Tech</option>
+                <option>BCA</option>
+                <option>MCA</option>
+                <option>M.Tech</option>
+            </select>
+        </div>
+
+        <div class="row">
+            <label>Student Photo :</label>
+            <input type="file">
+        </div>
+
+        <div class="row">
+            <label>City :</label>
+            <input type="text">
+        </div>
+
+        <div class="row">
+            <label>Address :</label>
+            <textarea rows="5"></textarea>
+        </div>
+
+        <div class="btn">
+            <input type="submit" value="Register">
+        </div>
+
+    </form>
+
+</div>
+
+</body>
+</html>
